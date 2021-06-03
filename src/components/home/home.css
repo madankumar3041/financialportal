@@ -1,0 +1,49 @@
+
+.card-image-overlay{
+    position: relative;
+}
+.btn-outline-warning{
+    background-color: white !important;
+    position: absolute;
+    bottom: 10%;
+    left: 32%;
+}
+.btn-outline-warning:hover{
+    background-color: #ffc107 !important;
+}
+.goal_report{
+    margin-top: 3rem;
+}
+.exp{
+    width: 40vw;
+}
+.card-body{
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    padding-left: 0.01rem !important;
+    padding-right: 0.01rem !important;
+}
+.plus .fa-plus{
+    color: red;
+}
+.plus{
+    border: 2px dotted red;
+    padding-top: 1.75rem !important;
+}
+.btgraph{
+    display: block;
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+    margin-top: 5px;
+}
+.graph{
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+}
+@media only screen and (max-width:400px){
+    .plus{
+        padding-top: 1rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+}

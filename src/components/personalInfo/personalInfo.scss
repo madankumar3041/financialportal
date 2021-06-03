@@ -1,0 +1,187 @@
+.left-panel {
+  .list-item {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 3px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 3px !important;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  }
+  .bg-purple{
+    background-color: #563D7C;
+  }
+}
+
+.right-panel {
+  border-radius: 3px !important;
+  padding: 20px;
+  margin: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  .personalhead{
+      margin-left: 1rem;
+      font-size: large;
+      font-weight: bolder;
+  }
+  .fa-user{
+     color: #563D7C;
+  }
+  .fa-envelope-open-text{
+    color: #563D7C;
+  }
+  .fa-money-bill-wave{
+    color: #fac107;
+  }
+  .fa-calendar{
+    color: #fac107;
+  }
+  .labelemail{
+    position: relative;
+    left: 0.5rem;
+  }
+  .dropdown{
+    margin-bottom: 1rem;
+  }
+  .hscroll{
+      overflow-x: auto;
+      margin-top: 1rem;
+      margin-left: 0.5rem; 
+  }
+  @media only screen and (max-width : 400px) {
+    .dropdown{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  @media only screen and (min-width : 900px) {
+    .dropdown-toggle{
+      position: relative;
+      left: 1rem;
+    }
+  }
+  .btn-group-toggle{
+    display: block;
+    margin-top: 0.3rem;
+  }
+  .step-header {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+    .goals-btn-plus {
+      background-color: #fac107;
+      border-radius: 100%;
+      width: 2.5rem;
+      height: 2.5rem;
+      padding-right: 0.2rem;
+    }
+    .goals-btn-plus :hover{
+       cursor: pointer;
+    }
+    .fa-plus{
+      color: white;
+    }
+    .add{
+      color: #fac107;
+      font-weight: bolder;
+      font-size: large;
+    }
+  }
+  .assets-btn-wrapper {
+    width: 70%;
+    margin-top: 10px;
+
+    .assets-btn {
+      text-transform: uppercase;
+      color: #3cb8f0;
+      border-radius: 30px;
+      font-size: 16px;
+      text-align: center;
+      padding: 5px 20px;
+      margin-right: 20px;
+      margin-bottom: 15px;
+      display: inline-block;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+    .assets-btn:hover {
+      background-color: #3cb8f0;
+      color: #fff;
+    }
+  }
+
+  .goals {
+    .goals-btn-wrapper {
+      width: 70%;
+      margin-top: 10px;
+
+      .goals-btn {
+        text-transform: uppercase;
+        color: #fac107;
+        border-radius: 30px;
+        font-size: 16px;
+        text-align: center;
+        padding: 5px 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+          rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      }
+      .goals-btn:hover {
+        background-color: #fac107;
+        color: #fff;
+      }
+    }
+    .goal-card {
+      margin: 0 10px;
+      padding: 10px;
+      border-radius: 3px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      overflow: hidden;
+      .goal-img {
+        width: 85px;
+        height: 75px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+          rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        margin: 8px;
+        border-radius: 3px;
+      }
+      .add-goal {
+        margin: 5px;
+        padding: 5px 5px;
+        border: dashed 2px #fac107;
+        color: #fac107;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-transform: uppercase;
+        text-align: center;
+        height: calc(100% - 10px);
+      }
+      .goal-picture img {
+        width: 100%;
+
+        border-radius: 3px;
+      }
+    }
+  }
+}
